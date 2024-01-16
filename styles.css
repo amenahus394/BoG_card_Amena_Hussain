@@ -35,26 +35,6 @@ body{
             background-color: rgb(208, 188, 247);
         }
      }
-
-     /* .parallelogram {
-        height: 150px;
-        width: 650px;
-        position: relative;
-        top: 200px;
-        left: 390px;
-        background-color: white;
-        border-style: solid;
-        border-color: rgb(6, 154, 154);
-        align-self: center;
-        transform: skew(20deg);
-      } */
-
-     /* .circle {
-        height: 100px;
-        width: 100px;
-        background-color: white;
-        border-radius: 50%;
-      } */
 }
 
 h1 {
