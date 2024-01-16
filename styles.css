@@ -1,0 +1,211 @@
+/* Your Styles Here */
+body{
+    background-color: teal;
+
+    .square {
+        height: 400px;
+        width: 400px;
+        position: relative;
+        top: 150px;
+        left: 500px;
+        background-color: rgb(208, 188, 247);
+        border-style: solid;
+        border-color: rgb(6, 154, 154);
+        align-self: center;
+        border-radius: 10%;
+        animation-name: changing;
+        animation-duration: 10s;
+         animation-iteration-count: infinite;
+      }
+
+      @keyframes changing {
+        0%{
+          background-color: white;
+        }
+        25%{
+            background-color: red;
+        }
+        50%{
+            background-color: blue;
+        }
+        75%{
+            background-color: purple;
+        }
+        100%{
+            background-color: rgb(208, 188, 247);
+        }
+     }
+
+     /* .parallelogram {
+        height: 150px;
+        width: 650px;
+        position: relative;
+        top: 200px;
+        left: 390px;
+        background-color: white;
+        border-style: solid;
+        border-color: rgb(6, 154, 154);
+        align-self: center;
+        transform: skew(20deg);
+      } */
+
+     /* .circle {
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        border-radius: 50%;
+      } */
+}
+
+h1 {
+    top: 10px;
+    font-family: verdana;
+    font-size: 55px;
+    position: absolute;
+    left: 490px;
+    color: white;
+    align-self: center;
+    border-color: rgb(208, 188, 247);
+    border-width: 5px;
+  }
+
+description {
+    position: absolute;
+    top: 150px;
+    left: 390px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .me {
+    height: 370px;
+    width: 290px;
+    position: absolute;
+    top: 170px;
+    left: 560px;
+    border-radius: 50%;
+    border-color: rgb(6, 154, 154);
+    align-self: center;
+  }
+
+  .button1 {
+    color:rgb(156, 118, 232);
+    font-family: verdana;
+    height: 60px;
+    width: 400px;
+    background-color: white;
+    text-decoration: rgb(36, 84, 245);
+    position: absolute;
+    left: 510px;
+    top: 580px;
+    border-color: rgb(208, 188, 247);
+    border-radius: 1%;
+  }
+
+  h2 {
+    top: 10px;
+    font-family: verdana;
+    font-size: 55px;
+    position: absolute;
+    text-align: center;
+    left: 200px;
+    color: rgb(208, 188, 247);
+    align-self: center;
+  }
+
+  i {
+    top: 200px;
+    font-family: verdana;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    left: 100px;
+    color: white;
+    align-self: center;
+
+  }
+
+  p1 {
+    top: 300px;
+    font-family: verdana;
+    font-size: 19px;
+    position: absolute;
+    text-align: center;
+    color: rgb(208, 188, 247);
+    align-self: center;
+  }
+
+  .bottomContainer {
+    display: flex;
+    position: absolute;
+    top: 500px;
+  }
+
+
+.hometown {
+    position: absolute;
+    left: 950px;
+
+}
+
+.tunes {
+    position: absolute;
+    left: 300px;
+}
+
+.songpic {
+    position: absolute;
+    left: -60px;
+    height: 300px;
+    width: 300px;
+}
+
+.nj{
+    position: absolute;
+    left: -60px;
+    height: 300px;
+    width: 300px;
+}
+
+.picbutton1, .picbutton2, .picbutton3, .picbutton4, .picbutton5 {
+    position: absolute;
+    display: flex;
+    top: 380px;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    border-color: white;
+    color: white;
+    background-color: rgb(208, 188, 247);;
+}
+
+.picbutton1 {
+    left: -30px;
+}
+
+.picbutton2 {
+
+    left: 20px;
+}
+
+.picbutton3 {
+    left: 70px;
+}
+
+.picbutton4 {
+    left: 120px;
+}
+
+.picbutton5 {
+    left: 170px;
+}
+
+
+
+ 
+  
+
+
